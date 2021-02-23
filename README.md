@@ -1,21 +1,21 @@
-# Wargaming authentication for Laravel 5
-[![License](https://poser.pugx.org/azate/laravel-wargaming-auth/license)](https://packagist.org/packages/azate/laravel-wargaming-auth)
-[![Latest Stable Version](https://poser.pugx.org/azate/laravel-wargaming-auth/v/stable)](https://packagist.org/packages/azate/laravel-wargaming-auth)
-[![Total Downloads](https://poser.pugx.org/azate/laravel-wargaming-auth/downloads)](https://packagist.org/packages/azate/laravel-wargaming-auth)
+# Wargaming authentication for Laravel 8
+[![License](https://poser.pugx.org/Kuzdo/laravel-wargaming-auth/license)](https://packagist.org/packages/Kuzdo/laravel-wargaming-auth)
+[![Latest Stable Version](https://poser.pugx.org/Kuzdo/laravel-wargaming-auth/v/stable)](https://packagist.org/packages/Kuzdo/laravel-wargaming-auth)
+[![Total Downloads](https://poser.pugx.org/Kuzdo/laravel-wargaming-auth/downloads)](https://packagist.org/packages/Kuzdo/laravel-wargaming-auth)
 
-This package is a Laravel 5 service provider which provides support for Wargaming OpenID and is very easy to integrate with any project that requires Wargaming authentication.
+This package is a Laravel 8 service provider which provides support for Wargaming OpenID and is very easy to integrate with any project that requires Wargaming authentication.
 
 ## Installation
 Require this package with composer.
 ```shell
-composer require azate/laravel-wargaming-auth
+composer require Kuzdo/laravel-wargaming-auth
 ```
 Laravel >=5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 
 Copy the package config to your local config with the publish command:
 
 ```shell
-php artisan vendor:publish --provider="Azate\Laravel\WargamingAuth\Providers\WargamingAuthServiceProvider"
+php artisan vendor:publish --provider="Kuzdo\Laravel\WargamingAuth\Providers\WargamingAuthServiceProvider"
 ```
 ## Usage example
 In `routes/web.php`:
@@ -28,7 +28,7 @@ In `AuthController`:
 ```php
 namespace App\Http\Controllers;
 
-use Azate\Laravel\WargamingAuth\WargamingAuth;
+use Kuzdo\Laravel\WargamingAuth\WargamingAuth;
 use Illuminate\Http\RedirectResponse;
 
 class AuthController extends Controller

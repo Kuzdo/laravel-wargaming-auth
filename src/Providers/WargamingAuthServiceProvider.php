@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Azate\Laravel\WargamingAuth\Providers;
+namespace Kuzdo\Laravel\WargamingAuth\Providers;
 
-use Azate\Laravel\WargamingAuth\WargamingAuth;
+use Kuzdo\Laravel\WargamingAuth\WargamingAuth;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class WargamingAuthServiceProvider.
  *
- * @package Azate\Laravel\WargamingAuth\Providers
+ * @package Kuzdo\Laravel\WargamingAuth\Providers
  */
 class WargamingAuthServiceProvider extends ServiceProvider
 {

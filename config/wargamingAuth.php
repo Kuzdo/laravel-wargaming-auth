@@ -7,6 +7,6 @@ return [
         'na' => true,
         'ru' => true,
     ],
-    'defaultRegion' => 'ru',
+    'defaultRegion' => 'eu',
     'callbackRoute' => 'auth.wargaming.handle',
 ];

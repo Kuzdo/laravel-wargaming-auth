@@ -1,30 +1,30 @@
 {
-    "name": "azate/laravel-wargaming-auth",
+    "name": "Kuzdo/laravel-wargaming-auth",
     "description": "Laravel Wargaming Auth",
     "keywords": ["laravel", "wargaming", "auth"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Artem Didyk",
-            "email": "c5c77b6+1467d308@gmail.com"
+            "name": "Przemysław \"Kużdo\" Kużdowicz",
+            "email": "przemyslaw@kuzdowicz.pro"
         }
     ],
     "require": {
-        "php": "^7.0",
-        "guzzlehttp/guzzle": "^6.2",
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
         "illuminate/http": "5.5.x|5.6.x|5.7.x",
         "illuminate/routing": "5.5.x|5.6.x|5.7.x",
         "illuminate/support": "5.5.x|5.6.x|5.7.x"
     },
     "autoload": {
         "psr-4": {
-            "Azate\\Laravel\\WargamingAuth\\": "src"
+            "Kuzdo\\Laravel\\WargamingAuth\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Azate\\Laravel\\WargamingAuth\\Providers\\WargamingAuthServiceProvider"
+                "Kuzdo\\Laravel\\WargamingAuth\\Providers\\WargamingAuthServiceProvider"
             ]
         }
     }

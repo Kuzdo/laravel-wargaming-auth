@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Azate\Laravel\WargamingAuth;
+namespace Kuzdo\Laravel\WargamingAuth;
 
 use GuzzleHttp\Client as GuzzleClient;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 /**
  * Class WargamingAuth
  *
- * @package Azate\Laravel\WargamingAuth
+ * @package Kuzdo\Laravel\WargamingAuth
  */
 class WargamingAuth
 {
