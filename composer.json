@@ -1,5 +1,5 @@
 {
-    "name": "Kuzdo/laravel-wargaming-auth",
+    "name": "kuzdo/laravel-wargaming-auth",
     "description": "Laravel Wargaming Auth",
     "keywords": ["laravel", "wargaming", "auth"],
     "license": "MIT",

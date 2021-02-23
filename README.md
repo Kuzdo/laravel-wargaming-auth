@@ -1,14 +1,14 @@
 # Wargaming authentication for Laravel 8
-[![License](https://poser.pugx.org/Kuzdo/laravel-wargaming-auth/license)](https://packagist.org/packages/Kuzdo/laravel-wargaming-auth)
-[![Latest Stable Version](https://poser.pugx.org/Kuzdo/laravel-wargaming-auth/v/stable)](https://packagist.org/packages/Kuzdo/laravel-wargaming-auth)
-[![Total Downloads](https://poser.pugx.org/Kuzdo/laravel-wargaming-auth/downloads)](https://packagist.org/packages/Kuzdo/laravel-wargaming-auth)
+[![License](https://poser.pugx.org/kuzdo/laravel-wargaming-auth/license)](https://packagist.org/packages/kuzdo/laravel-wargaming-auth)
+[![Latest Stable Version](https://poser.pugx.org/kuzdo/laravel-wargaming-auth/v/stable)](https://packagist.org/packages/kuzdo/laravel-wargaming-auth)
+[![Total Downloads](https://poser.pugx.org/kuzdo/laravel-wargaming-auth/downloads)](https://packagist.org/packages/kuzdo/laravel-wargaming-auth)
 
 This package is a Laravel 8 service provider which provides support for Wargaming OpenID and is very easy to integrate with any project that requires Wargaming authentication.
 
 ## Installation
 Require this package with composer.
 ```shell
-composer require Kuzdo/laravel-wargaming-auth
+composer require kuzdo/laravel-wargaming-auth
 ```
 Laravel >=5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 
